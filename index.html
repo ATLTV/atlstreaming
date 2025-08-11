@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meu Site Streaming Futurista</title>
+  <style>
+    body {
+      margin: 0; 
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #00ffea;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    header {
+      background: #061a1e;
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-shadow: 0 0 10px #00ffea;
+    }
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    a.download-link {
+      display: inline-block;
+      margin: 10px 10px 10px 0;
+      padding: 12px 20px;
+      border: 2px solid #00ffea;
+      border-radius: 10px;
+      color: #00ffea;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    a.download-link:hover {
+      background: #00ffea;
+      color: #061a1e;
+      box-shadow: 0 0 15px #00ffea;
+    }
+  </style>
+</head>
+<body>
+  <header>Meu Streaming Futurista</header>
+  <main>
+    <h2>Arquivos para download</h2>
+    <a href="downloads/aplicativo1.exe" download class="download-link">Baixar Aplicativo 1</a>
+    <a href="downloads/video1.mp4" download class="download-link">Baixar Vídeo 1</a>
+    <a href="downloads/lista-canais.m3u" download class="download-link">Baixar Lista de Canais</a>
+  </main>
+</body>
+</html>
